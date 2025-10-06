@@ -2,37 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CR7-cafe | Home</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CR7-cafe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff7f0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      color: #ffd166;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1600891963933-960d8b782e93');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-shadow: 2px 2px 8px #000;
+    }
+    .hero h2 {
+      font-size: 2.8rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #e63946;
+      color: white;
+      padding: 15px 0;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <div class="container">
-      <h1 class="logo">CR7-cafe</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>CR7-cafe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">about</a>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="hero-content">
-      <h2>Welcome to CR7-cafe</h2>
-      <p>For the Love of Football & Flavor.</p>
-      <a href="menu.html" class="btn">Explore Menu</a>
-    </div>
+    <h2>Welcome to CR7-cafe!</h2>
+    <p>“For the Love of Football & Flavor.”</p>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 CR7-cafe. All rights reserved.</p>
-    </div>
+    © 2025 CR7-cafe Restaurant | Designed by Surya Ranganathan
   </footer>
 </body>
 </html>

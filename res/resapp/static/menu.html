@@ -2,52 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CR7-cafe | Menu</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CR7-cafe Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff7f0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      color: #ffd166;
+    }
+    h2 {
+      color: #e63946;
+      margin: 40px 0 20px;
+      font-size: 2rem;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 0 20px;
+    }
+    .item {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+    .item:hover {
+      transform: scale(1.05);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+    .item p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+    footer {
+      background-color: #e63946;
+      color: white;
+      padding: 15px 0;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <div class="container">
-      <h1 class="logo">CR7-cafe</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html" class="active">Menu</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>CR7-cafe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
   </header>
 
-  <section class="menu-section">
-    <div class="container">
-      <h2>Our Popular Dishes</h2>
-      <div class="menu-items">
-        <div class="menu-item">
-          <img src="a.png" alt="Dish 1">
-          <h3>🥘 Bacalhau Power Bowl</h3>
-          <p>Inspired by Ronaldo’s favorite Bacalhau à Brás — a café twist with golden potato crisps and fresh greens.</p>
-        </div>
-        <div class="menu-item">
-          <img src="b.png" alt="Dish 2">
-          <h3>🐟 Champion’s Grilled Fish Platter</h3>
-          <p>Ronaldo-style grilled sea bass with lemon herb dressing and quinoa.</p>
-        </div>
-        <div class="menu-item">
-          <img src="c.png" alt="Dish 3">
-          <h3>🥗 GOAT’s Chicken Salad</h3>
-          <p>Grilled chicken breast tossed with crisp veggies and olive oil vinaigrette.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <h2>Our Delicious Menu</h2>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 CR7-cafe. All rights reserved.</p>
+  <div class="menu-items">
+    <div class="item">
+      <img src="a.png" alt="Bacalhau">
+      <h3>🥘 Champion’s Cod Delight</h3>
+      <p>A modern take on Ronaldo’s favorite Bacalhau à Brás — shredded salted cod, golden potato crisps, caramelized onions, and creamy eggs. A true Portuguese powerhouse meal that fuels champions.</p>
     </div>
+
+    <div class="item">
+      <img src="b.png" alt="Grilled chicken salad">
+      <h3>🥗 GOAT’s Chicken Power Salad</h3>
+      <p>Grilled chicken breast tossed with crisp lettuce, cherry tomatoes, cucumber, and a drizzle of olive oil. Light, lean, and full of energy — just like CR7’s daily diet.</p>
+    </div>
+
+    <div class="item">
+      <img src="c.png" alt="Grilled steak with vegetables">
+      <h3>🥩 Ronaldo’s Victory Steak</h3>
+      <p>A perfectly grilled lean steak served with fresh greens and roasted vegetables. High in protein, low in fat — made to keep you fit and unstoppable.</p>
+    </div>
+
+  
+  <footer>
+    © 2025 CR7-cafe Restaurant | Designed by Surya Ranganathan
   </footer>
 </body>
 </html>
